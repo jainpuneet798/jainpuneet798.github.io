@@ -12,22 +12,52 @@
     
     
     <item>
-      <title>Adaptive Gaze Controlled Virtual Keyboard</title>
-      <link>https://jainpuneet798.github.io/portfolio/work2/</link>
-      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
-      
-      <guid>https://jainpuneet798.github.io/portfolio/work2/</guid>
-      <description>Some of the input modalities used by people for interactions are a mouse, keyboard, etc. which mostly are operated using hands.
-However, most of these devices seem futile when the users are motor-impaired or have constrained body movements. The following project is a virtual keyboard that is operated through eye-gaze rather than hands. The keyboard has a QWERTY layout and is integrated with a customized machine learning algorithm to dynamically adapt dwell time of the keys.</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 3</title>
+      <title>Ethnographic Study - people with visual impairment</title>
       <link>https://jainpuneet798.github.io/portfolio/work3/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
       <guid>https://jainpuneet798.github.io/portfolio/work3/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+      <description>After visiting National Association for blind as mentioned in my previous post (not detailed though) I visited a School for visually impaired kids and I share my learn experiences here with you. Where as NAB mostly had people who were in the age group 20-35 Captain Chand Lal Blind school (CCBL) is just like a primary school where they teach children right from nursery to 8th standard.
+So I will divide this post with various activities they do class wise explaining by some pictures.</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Gaze Controlled Virtual Keyboard for people with speech and motor impairment</title>
+      <link>https://jainpuneet798.github.io/portfolio/work2/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/work2/</guid>
+      <description>The common input modalities used by people for interacting with a computer are limited to a mouse or a physical keyboard - mostly operated using hands.
+However, these devices seem futile when the users are motor-impaired or have constrained body movements. The following project is a virtual keyboard that is operated through eye-gaze rather than hands. The keyboard has a modified QWERTY layout and is integrated with a customized machine learning algorithm to dynamically adapt dwell time of the keys.</description>
+    </item>
+    
+    <item>
+      <title>Inertial Motion Sensing and Haptics in UNITY3D</title>
+      <link>https://jainpuneet798.github.io/portfolio/work5/</link>
+      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/work5/</guid>
+      <description>This was a small attempt to understand how wearable gloves work and what are the various mediums by which one can integrate haptics into the device. The particular glove I used is &amp;lsquo;Capto Glove&amp;rsquo; purchased from the Company of the same name. Currently, the glove consists of an IMU (Intertial Measurement Unit) that provides accelerometer, magnetometer and gyroscopic readings along the three axes. The glove has many other features like bending force calculation, finger pressure readings, etc.</description>
+    </item>
+    
+    <item>
+      <title>Cybernetic Plant Human Interface</title>
+      <link>https://jainpuneet798.github.io/portfolio/work6/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/work6/</guid>
+      <description>This project explores a proof of concept to open up a dialogue between a human and a non-human (a Mimosa Plant) in a digital space where they co-exist together, share the digital space, and compete for their respective goals to interact with each other resulting in a cybernetic performance over time.
+Introduction The intake of digital information till date is heavily based on rectangular computer screens and demand an acute visual focus (which is also overwhelmingly visual from a cultural/social sensory point of view) of the observer.</description>
+    </item>
+    
+    <item>
+      <title>Solar Energy Recommendation Tool (NASA SpaceApp Challenge 2017)</title>
+      <link>https://jainpuneet798.github.io/portfolio/work7/</link>
+      <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/work7/</guid>
+      <description>Helios is a tool that won a global nominee at NASA Space App Challenge 2017. Helios helps people understand the amount of energy generated from different types of Solar panels and how they can relate it to daily household items.Helios also helps the Hi-Seas crew to plan their daily activities by giving personalized recommendations.
+The Problem In the past decade we have seen a great inclination towards use of solar energy around the globe.</description>
     </item>
     
     <item>
@@ -37,33 +67,6 @@ However, most of these devices seem futile when the users are motor-impaired or 
       
       <guid>https://jainpuneet798.github.io/portfolio/work4/</guid>
       <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 5</title>
-      <link>https://jainpuneet798.github.io/portfolio/work5/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
-      
-      <guid>https://jainpuneet798.github.io/portfolio/work5/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 6</title>
-      <link>https://jainpuneet798.github.io/portfolio/work6/</link>
-      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
-      
-      <guid>https://jainpuneet798.github.io/portfolio/work6/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 7</title>
-      <link>https://jainpuneet798.github.io/portfolio/work7/</link>
-      <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
-      
-      <guid>https://jainpuneet798.github.io/portfolio/work7/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
     </item>
     
     <item>

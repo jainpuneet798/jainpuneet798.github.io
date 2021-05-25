@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://jainpuneet798.github.io/css/owl.theme.css">
 
 
-  <link href="https://jainpuneet798.github.io/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+  <link href="https://jainpuneet798.github.io/css/style.green.css" rel="stylesheet" id="theme-stylesheet">
 
  
 
@@ -131,25 +131,35 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Name of the work 7</h1>
-         <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them.</p>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-<ol>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
-</ol>
-<blockquote>
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-</blockquote>
-<h2 id="header-level-2">Header Level 2</h2>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+         <h1>Solar Energy Recommendation Tool (NASA SpaceApp Challenge 2017)</h1>
+         <p>Helios is a tool that won a global nominee at NASA Space App Challenge 2017. Helios helps people understand the amount of energy generated from different types of Solar panels and how they can relate it to daily household items.Helios also helps the Hi-Seas crew to plan their daily activities by giving personalized recommendations.</p>
+<h2 id="the-problem">The Problem</h2>
+<p>In the past decade we have seen a great inclination towards use of solar energy around the globe. Whereas companies like VerengoSolar, SolarCity are aiming to bring a clean solution to the environment in the very next years, a major population of the world still can&rsquo;t relate how much energy comes from the solar devices like a Solar Panel. When we think of missions like Mars exploration in the future where energy supply becomes heavily reliant on solar energy, it becomes a matter of concern to plan its future availability due to fluctuations in factors affecting solar radiation over time.</p>
+<h2 id="the-idea---our-brainstorming">The Idea - Our Brainstorming</h2>
+<p>Firstly there are not many resources available online to understand about solar consumption and questions like &ldquo;Whether I can use my electric kettle&rdquo; or &ldquo;Can I play X-box while having my AC on for next 4 hours&rdquo; while having solar panels installed is a common question that comes to mind of an end user. Also resources available talk all about numbers like KWh (Kilo Watt hours) , angle of inclination of sun from solar panel but no one connects to the end user answering all the questions above about his/ her daily usage of household appliances.</p>
+<h2 id="the-solution">The Solution</h2>
+<p>Helios is the tool provided by our team to address the following solutions:</p>
+<p>Our tools helps people understand how much energy comes from a single solar panel in terms of the the household appliances they use. Visual interpretation of daily usage appliances rather than data values like KWh, angle of inclination etc helps people connect in a better way with solar energy and in the process, enhance their understanding.
+It helps people adjust the usage of their devices according to the total solar energy available for the day. User can increase the usage of one device for few hours while being notified to limit the usage of other devices with respect to total available energy.
+Using Machine learning algorithms and data analysis techniques on the data set provided by NASA, we train a regression model. Using NASA weather forecast as input to our model, our tool predicts the future solar radiation (power), that can be generated, so that they can plan their activities as a team.
+It also provides activity recommendations to each individual HI-SEAS crew member based on their previous usage of power, giving them priorities to task and helping them to use energy in the most optimized way.</p>
+<h2 id="exploratory-data-analysis-and-machine-learning">Exploratory data analysis and Machine learning</h2>
+<p>The data sets (provided by NASA) were meteorological data from the HI-SEAS weather station from four months (September through December 2016) between Mission IV and Mission V. For each data set, the fields included features like radiation, humidity, temperature, wind speed etc.</p>
+<p>After performing feature engineering we did aggregation of various parameters provided, into the following data set. Data was broken down into train and test sets. Taking Y (output) as radiation and X (input) as a number of features like humidity, radiation etc we tried doing linear regression and building a model. Trying some features relationship with radiation it was found that temperature had a quadratic relationship with radiation. Hence, further feature engineering was done and model was created in R. The following figure shows the R-squared value for our model.</p>
+<p>As one can guess that there will be a peak in radiation over the day which is very important insight for the HI-SEAS crew as they are totally reliant on solar energy as an energy consumption resource. If they could use solar energy efficiently during the peak hours of the day (10:00-16:00 here as example) due to its inconsistent availability t will free them of worrying about solar and can rather focus on their research on the red planet.
+Thus we tried to give peak hour recommendation to the team as well as individual crew member using Helios.</p>
+<h2 id="future-impact-of-helios">Future Impact of Helios</h2>
+<p>When harnessing energy from solar panels in the future will be a very common thing Helios can easily be implemented to household techniques to make better planning about solar usage and a better life. Here is a glimpse of future of Helios.</p>
+<h4 id="tools-used">Tools Used</h4>
 <ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
+<li>R</li>
+<li>Jquery</li>
+<li>HTML</li>
+<li>Python</li>
+<li>JavaScript</li>
 </ul>
-<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
+<p>The link to the NASA SpaceApp website for further description: <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sunshine/teams/future-martians">https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sunshine/teams/future-martians</a></p>
+
          
       </div>
     </div>
