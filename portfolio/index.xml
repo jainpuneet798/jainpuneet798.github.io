@@ -61,12 +61,21 @@ The Problem In the past decade we have seen a great inclination towards use of s
     </item>
     
     <item>
-      <title>Item without image</title>
+      <title>Genealogy of Neural Networks - A short essay</title>
       <link>https://jainpuneet798.github.io/portfolio/work4/</link>
       <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
       
       <guid>https://jainpuneet798.github.io/portfolio/work4/</guid>
-      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;</description>
+      <description>Medical prescriptions from a chat bot on a website, songs recommended by a cylinder in a dining room, and cars on a highway driving without human assistance portrays a world surrounded by &amp;ldquo;intelligent&amp;rdquo; entities - intelligence that is equivalent to that of a human brain. Indeed, all the above technologies are equipped with a common architecture, a neural network that: imitates the human brain to learn patterns in datasets, optimize its decisions, and predict results to act on the outside world.</description>
+    </item>
+    
+    <item>
+      <title>Intertwinement of Entropy, Information, and Thermodynamics - A short essay</title>
+      <link>https://jainpuneet798.github.io/portfolio/work1/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/work1/</guid>
+      <description>In the mid-20th century, the concept of communication that was mostly tied to a source and a physical medium was challenged and ontologically shifted by a mathematician named Claude Shannon by the construction of a grand unified theory of communication. Shannon achieved this extraordinary goal by quantifying the information associated with a message, the capacity of a communication channel through which this message passes, the coding processes needed to make that channel efficient, study of noise that could arise in such a system, and noise&amp;rsquo;s effect on the accuracy of the received message by using a single concept from the physical sciences - entropy.</description>
     </item>
     
     <item>
@@ -103,15 +112,6 @@ The Problem In the past decade we have seen a great inclination towards use of s
       
       <guid>https://jainpuneet798.github.io/portfolio/work11/</guid>
       <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Adaptive Gaze Controlled Virtual Keyboard</title>
-      <link>https://jainpuneet798.github.io/portfolio/work1/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
-      
-      <guid>https://jainpuneet798.github.io/portfolio/work1/</guid>
-      <description>Some of the input modalities used by people for interactions are a mouse, keyboard, etc. which mostly are operated using hands. However, most of these devices seem futile when the users are motor-impaired or have constrained body movements. The following project is a virtual keyboard that is operated through eye-gaze rather than hands. The keyboard has a QWERTY layout and is integrated with a customized machine learning algorithm to dynamically adapt dwell time of the keys.</description>
     </item>
     
   </channel>
