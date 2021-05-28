@@ -45,64 +45,34 @@
       
         <li><a href="https://jainpuneet798.github.io/about/">About</a></li>
       
+        <li><a href="https://jainpuneet798.github.io/Publications/">Publications</a></li>
+      
         <li><a href="https://jainpuneet798.github.io/contact/">Get in touch</a></li>
       
     </ul>
     <p class="social">
   
-  <a href="full%20page%20or%20profile%20url%20in%20facebook" data-animate-hover="pulse" class="external facebook">
-    <i class="fa fa-facebook"></i>
-  </a>
   
   
-  <a href="full%20profile%20url%20in%20googleplus" data-animate-hover="pulse" class="external gplus">
-    <i class="fa fa-google-plus"></i>
-  </a>
-  
-  
-  <a href="full%20profile%20url%20in%20twitter" data-animate-hover="pulse" class="external twitter">
+  <a href="https://twitter.com/Puneet_idk" data-animate-hover="pulse" class="external twitter">
     <i class="fa fa-twitter"></i>
   </a>
   
   
-  <a href="full%20profile%20url%20in%20instagram" title="" class="external instagram">
+  <a href="https://www.instagram.com/puneet_idk/" title="" class="external instagram">
     <i class="fa fa-instagram"></i>
   </a>
   
   
-  <a href="mailto:email@example.com" data-animate-hover="pulse" class="email">
-    <i class="fa fa-envelope"></i>
-  </a>
   
-  
-  <a href="full%20profile%20url%20in%20linkedin" data-animate-hover="pulse" class="external">
+  <a href="https://www.linkedin.com/in/puneetjain2b412571/" data-animate-hover="pulse" class="external">
     <i class="fa fa-linkedin"></i>
   </a>
   
   
-  <a href="full%20profile%20url%20in%20stackoverflow" data-animate-hover="pulse" class="external">
-    <i class="fa fa-stack-overflow"></i>
-  </a>
   
   
-  <a href="full%20profile%20url%20in%20github" data-animate-hover="pulse" class="external">
-    <i class="fa fa-github"></i>
-  </a>
   
-  
-  <a href="full%20profile%20url%20in%20gitlab" data-animate-hover="pulse" class="external">
-    <i class="fa fa-gitlab"></i>
-  </a>
-  
-  
-  <a href="full%20profile%20url%20in%20youtube" data-animate-hover="pulse" class="external">
-    <i class="fa fa-youtube"></i>
-  </a>
-  
-  
-  <a href="wa.me%20service%20link" data-animate-hover="pulse" class="external">
-    <i class="fa fa-whatsapp"></i>
-  </a>
   
 </p>
 
@@ -133,9 +103,22 @@
       <div class="content-column-content">
          <h1>Inertial Motion Sensing and Haptics in UNITY3D</h1>
          <p>This was a small attempt to understand how wearable gloves work and what are the various mediums by which one can integrate haptics into the device. The particular glove I used is &lsquo;Capto Glove&rsquo; purchased from the Company of the same name. Currently, the glove consists of an IMU (Intertial Measurement Unit) that provides accelerometer, magnetometer and gyroscopic readings along the three axes. The glove has many other features like bending force calculation, finger pressure readings, etc. The Glove doesn&rsquo;t support Haptic feedback in the current version.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/381414306" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
 <p>However, the main task for me was to integrate the Glove within a VR environment and find alternative ways of providing feedback to the user. The initial integration involved understanding how to calibrate the glove and its integration with Unity. Since this was my first time working with an SDK (Software Development Kit), it was a real pain to make the right &lsquo;firmware&rsquo; work with the right &lsquo;version of Unity&rsquo; and get the streaming values from the glove in a Unity scene.</p>
 <p>Since the glove doesn&rsquo;t provide any sensory feedback, I built a scene in Unity in which a particular motion of the hand generates sensory feedback to the User (See video below). I mapped the rotational motion of the hand to the linear movement of a square box on the screen. I created a socket to send the 3-D coordinates of the square box to an Arduino which triggers a vibrational motor and an LED. Overall, the rotation of the hand that turns the box to the right side of the screen turns on the motor and the green LED while rotation in the opposite direction switches them off.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/381414528" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
 <p>​This is an experiment for understanding the glove and its working. Further, the motor can be placed on hand or at any other position on the body to provide sensory feedback to the user. While the motor provides feedback to the user, the LED gives visual feedback to the people around.</p>
+<p>One of the carry forward work to this exploration of interacting with the virtual world through a hand led us to create our own version of proof of concept of a glove (a bike glove ~ 1$) integrated with an IMU to create in depth motion of the hand. One of the reason for this exploration was that mostly the hands in a virtual scene - hands using LeapMotion or a BLE device like CaptoGlove do not extend into the speth of the screen i.e. along the z-axis. Hence I created a demo using the jerk (derivative of acceleration) as a feature to investigate the same.</p>
+<p><img src="/img/Projects/Hand/IMU3.JPG" alt=""></p>
+<p><img src="/img/Projects/Hand/IMU2.JPG" alt=""></p>
 
          
       </div>

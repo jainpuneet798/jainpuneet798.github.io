@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Puneet Jain</title>
+    <link>https://jainpuneet798.github.io/publications/</link>
+    <description>Recent content in Publications on Puneet Jain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://jainpuneet798.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://jainpuneet798.github.io/publications/new-text-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/publications/new-text-document/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
