@@ -6,10 +6,25 @@
     <description>Recent content on Puneet Jain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Nov 2016 13:00:25 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jan 2023 19:56:17 +0530</lastBuildDate><atom:link href="https://jainpuneet798.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animate</title>
+      <link>https://jainpuneet798.github.io/portfolio/animate/</link>
+      <pubDate>Wed, 18 Jan 2023 19:56:17 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/animate/</guid>
+      <description>Animate is a theatrical VR/AR (virtual and augmented reality) artwork on the theme of dystopian climate crisis, set in the year 2050.
+Animate was recently exhibited at KunstFest in Weimar, Germany (August 2022) and PAD Festival, Darmstadt, Germany (October 2022).</description>
+    </item>
     
-	<atom:link href="https://jainpuneet798.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Disability Hackathon</title>
+      <link>https://jainpuneet798.github.io/portfolio/disability-hackathon/</link>
+      <pubDate>Sun, 01 Jan 2023 19:56:17 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/disability-hackathon/</guid>
+      <description>Motivated by the concept of criphackathon from disability-led activism, I along with my friends (from Indian Insitute of Science, Bangalore) conducted a disability hackathon at Indian Insitute of Technology, Chennai in October 2022.</description>
+    </item>
     
     <item>
       <title>AutonomX</title>
@@ -17,7 +32,8 @@
       <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
       
       <guid>https://jainpuneet798.github.io/portfolio/autonomx/</guid>
-      <description>I am currently working as a Research Assistant on an exciting project &amp;ldquo;AutonomX&amp;rdquo;. It is an open source desktop application that allows multimedia artists and students to easily and quickly experiment with life-like processes via a graphical interface to generate dynamic, emergent and self-organizing patterns and output these patterns via OSC and MIDI to control light, sound, video, or even robots in real time, unlike systems that are fixed such as timelines and cue systems.</description>
+      <description>AutonomX is an open source desktop application that allows multimedia artists and students to easily and quickly experiment with life-like processes via a graphical interface to generate dynamic, emergent and self-organizing patterns and output these patterns via OSC and MIDI to control light, sound, video, or even robots in real time, unlike systems that are fixed such as timelines and cue systems.
+AutonomX is a project incubated at xModal Lab at Milieux Institute for Arts, Culture, and Technology, Concordia, University, Canada.</description>
     </item>
     
     <item>
@@ -30,7 +46,7 @@
     </item>
     
     <item>
-      <title>Adaptive Gaze Controlled Virtual Keyboard for people with speech and motor impairment</title>
+      <title>Adaptive Gaze Controlled Virtual Keyboard for people with sensorimotor disabilities</title>
       <link>https://jainpuneet798.github.io/portfolio/adaptivevirtualkeyboard/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
@@ -93,15 +109,6 @@ The Problem In the past decade we have seen a great inclination towards use of s
       
       <guid>https://jainpuneet798.github.io/portfolio/entropy-information-and-thermodynamics/</guid>
       <description>In the mid-20th century, the concept of communication that was mostly tied to a source and a physical medium was challenged and ontologically shifted by a mathematician named Claude Shannon by the construction of a grand unified theory of communication. Shannon achieved this extraordinary goal by quantifying the information associated with a message, the capacity of a communication channel through which this message passes, the coding processes needed to make that channel efficient, study of noise that could arise in such a system, and noise&amp;rsquo;s effect on the accuracy of the received message by using a single concept from the physical sciences - entropy.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jainpuneet798.github.io/publications/new-text-document/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jainpuneet798.github.io/publications/new-text-document/</guid>
-      <description></description>
     </item>
     
   </channel>

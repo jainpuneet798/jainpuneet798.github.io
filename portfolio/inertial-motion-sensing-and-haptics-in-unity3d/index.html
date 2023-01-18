@@ -45,9 +45,9 @@
       
         <li><a href="https://jainpuneet798.github.io/about/">About</a></li>
       
-        <li><a href="https://jainpuneet798.github.io/Publications/">Publications</a></li>
+        <li><a href="https://jainpuneet798.github.io/publications/">Publications</a></li>
       
-        <li><a href="https://jainpuneet798.github.io/contact/">Get in touch</a></li>
+        <li><a href="https://jainpuneet798.github.io/contact/">Contact</a></li>
       
     </ul>
     <p class="social">
@@ -106,14 +106,14 @@
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://player.vimeo.com/video/381414306" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
- </div>
+</div>
 
 <p>However, the main task for me was to integrate the Glove within a VR environment and find alternative ways of providing feedback to the user. The initial integration involved understanding how to calibrate the glove and its integration with Unity. Since this was my first time working with an SDK (Software Development Kit), it was a real pain to make the right &lsquo;firmware&rsquo; work with the right &lsquo;version of Unity&rsquo; and get the streaming values from the glove in a Unity scene.</p>
 <p>Since the glove doesn&rsquo;t provide any sensory feedback, I built a scene in Unity in which a particular motion of the hand generates sensory feedback to the User (See video below). I mapped the rotational motion of the hand to the linear movement of a square box on the screen. I created a socket to send the 3-D coordinates of the square box to an Arduino which triggers a vibrational motor and an LED. Overall, the rotation of the hand that turns the box to the right side of the screen turns on the motor and the green LED while rotation in the opposite direction switches them off.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://player.vimeo.com/video/381414528" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
- </div>
+</div>
 
 <p>​This is an experiment for understanding the glove and its working. Further, the motor can be placed on hand or at any other position on the body to provide sensory feedback to the user. While the motor provides feedback to the user, the LED gives visual feedback to the people around.</p>
 <p>One of the carry forward work to this exploration of interacting with the virtual world through a hand led us to create our own version of proof of concept of a glove (a bike glove ~ 1$) integrated with an IMU to create in depth motion of the hand. One of the reason for this exploration was that mostly the hands in a virtual scene - hands using LeapMotion or a BLE device like CaptoGlove do not extend into the speth of the screen i.e. along the z-axis. Hence I created a demo using the jerk (derivative of acceleration) as a feature to investigate the same.</p>
