@@ -102,22 +102,41 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>Adaptive Gaze Controlled Virtual Keyboard for people with sensorimotor disabilities</h1>
-         <p>The common input modalities used by people for interacting with a computer are limited to a mouse or a physical keyboard - mostly operated using hands.</p>
-<p>However, these devices seem futile when the users are motor-impaired or have constrained body movements. The following project is a virtual keyboard that is operated through eye-gaze rather than hands. The keyboard has a modified QWERTY layout and is integrated with a customized machine learning algorithm to dynamically adapt dwell time of the keys.  The &lsquo;dwell time&rsquo; is the threshold time for which one has to fixate his eyes (or gaze) on a key/button on the screen to perform a mouse click through gaze.</p>
+         <h6 id="the-common-input-modalities-used-by-people-for-interacting-with-a-computer-are-limited-to-a-mouse-or-a-physical-keyboard---mostly-operated-using-hands-however-these-devices-seem-futile-when-the-users-are-motor-impaired-or-have-constrained-body-movements">The common input modalities used by people for interacting with a computer are limited to a mouse or a physical keyboard - mostly operated using hands. However, these devices seem futile when the users are motor-impaired or have constrained body movements.</h6>
+<h6 id="the-following-project-is-a-virtual-keyboard-that-is-operated-through-eye-gaze-rather-than-hands-the-keyboard-has-a-modified-qwerty-layout-and-is-integrated-with-a-customized-machine-learning-algorithm-to-dynamically-adapt-dwell-time-of-the-keys">The following project is a virtual keyboard that is operated through eye-gaze rather than hands. The keyboard has a modified QWERTY layout and is integrated with a customized machine learning algorithm to dynamically adapt dwell time of the keys.</h6>
+<h6 id="dwell-time-is-the-threshold-time-for-which-one-has-to-fixate-their-eyes-or-gaze-on-a-keybutton-on-the-screen-to-perform-a-mouse-click-through-gaze">Dwell time is the threshold time for which one has to fixate their eyes (or gaze) on a key/button on the screen to perform a mouse click through gaze.</h6>
+<p><video controls 
+  class="my-video" 
+  width="640" 
+  height="360" 
+  
+  >
+  <source src="/img/Projects/VirtualKeyboard/Nagmajari%20Video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://player.vimeo.com/video/809064852" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-
-<p>[]</p>
-<p><img src="/img/Projects/VirtualKeyboard/kritika.jpg" alt="This is me"></p>
-<p>The image above depicts one of the initial prototypes that we built for gaze-typing. Kritika (able-bodied) who is a PhD student at IISc (in the image) is using the application to type their name. We use a Tobii Eye tracker to track the eye movements on a 17-inch screen. The keyboard is also integrated with visual (yellow boundary for the button on which gaze is fixated) and auditory (pronouncing the character typed) feedback.</p>
-<p>While the keyboard can be used by the able-bodied persons too, one of its prime importance comes into picture when they are operated by children (motor impaired) at Vidya Sagar (formerly known as the Spastic Society of India), Chennai, India.</p>
-<p><img src="/img/Projects/VirtualKeyboard/img4.jpg" alt="This"></p>
+<video controls 
+  class="my-video" 
+  width="640" 
+  height="360" 
+  
+  >
+  <source src="/img/Projects/VirtualKeyboard/Adaptive%20Dwell.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</p>
 <h2 id="objectives--of-the-project">Objectives  of the project</h2>
-<p>*To make a gaze-controlled interface for people with motor impairment.​</p>
-<p>*To reiterate the design of the interface after multiple trials with the users. This includes the placement of the keys and spaces between them, and inclusion  and integration of multiple modalities like sound in the product.</p>
-<p>*To build a customized machine learning algorithm to dynamically update the dwell time of the keys by learning the user’s usage pattern.</p>
+<ol>
+<li>
+<p>To develop a eye-gaze-controlled interface for people with sensorimotor disabilities (quadriplegic in our case).​</p>
+</li>
+<li>
+<p>To reiterate the design of the interface after multiple trials with the users. This includes the placement of the keys and spaces between them, and inclusion, and integration of multiple modalities like sound in the deveoped interface.</p>
+</li>
+<li>
+<p>To build a customized machine learning algorithm to dynamically update the dwell time of the keys (minimum time to click a key through eye-gaze) by learning the user’s usage pattern.</p>
+</li>
+</ol>
 <h2 id="results-of-the-project">Results of the project</h2>
 <ol>
 <li>A modified two-level gaze-controlled virtual keyboard for people with motor impairment that is currently in use at Vidya Sagar, Chennai (See the figures below). In order to give ample gaze time to find the key, the keyboard is designed to be a two-level keyboard. In other words, selecting YUIOP key opens up individual keys Y,U,I,O and P for the final selection. The design was tested with the students at the school and was approved by them and their trainers as the final prototype.</li>
@@ -129,14 +148,36 @@
 </ol>
 <p><img src="/img/Projects/VirtualKeyboard/Equation1b.PNG" alt=""></p>
 <ol start="3">
-<li>The keyboard is currently installed at Vidya Sagar, Chennai for enhancing digital literacy among the students. Moreover the work is accepted at the Journal of Technology and Disabilities 2021.</li>
+<li>The keyboard was also made customizable so that multiple users can use the keyboard. This also lets us saving the dwell time of the keys of the user, allocated to each user by a unique ID. Hence, enabling the disabled students to learn eye-gaze typing at their own pace. The keyboard is currently installed at Vidya Sagar, Chennai for enhancing digital literacy among the students. Moreover the work published at the Journal of Technology and Disabilities, 2021.</li>
 </ol>
-<p>[]</p>
+<p><img src="/img/Projects/VirtualKeyboard/img5.jpg" alt="">[picture credit: Puneet Jain; in picture: Kamal P. Singh and Viswa (disabled collaborator)]</p>
+<h5 id="iterative-design-methodology-trial-and-test-runs-on-disabled-and-non-disabled-users">Iterative Design Methodology: Trial and Test Runs on Disabled and Non-Disabled Users</h5>
+<p><img src="/img/Projects/VirtualKeyboard/kritika.jpg" alt="This is me"></p>
+<p>The image above depicts one of the initial prototypes that we built for gaze-typing. Kritika (able-bodied) who is a PhD student at IISc (in the image) is using the application to type their name. We use a Tobii Eye tracker to track the eye movements on a 17-inch screen. The keyboard is also integrated with visual (yellow boundary for the button on which gaze is fixated) and auditory (pronouncing the character typed) feedback.</p>
+<p>While the keyboard can be used by the able-bodied persons too, one of its prime importance comes into picture when they are operated by children (motor impaired) at Vidya Sagar (formerly known as the Spastic Society of India), Chennai, India.</p>
+<p><img src="/img/Projects/VirtualKeyboard/img4.jpg" alt="This"></p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/809064852" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+ [A disabled) user testing the keyboard for calculating the variation in dwell time as compared to people with disabilities]</p>
 <p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://player.vimeo.com/video/809063189" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
  [A (non-disabled) user testing the keyboard for calculating the variation in dwell time as compared to people with disabilities]</p>
+<p>The dwell time algorithm developed by me was further integrated into applications such as browser navigation through eye-gaze (built and developed by collaborator Kamal Preet Singh). One of such applications was in use by Dr. M. Vijayan (uptil his death in 2022).</p>
+<p><video controls 
+  class="my-video" 
+  width="640" 
+  height="360" 
+  
+  >
+  <source src="/img/Projects/VirtualKeyboard/Vijayan%20SIr.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+ [Late Dr. M Vijayan using a eye-gaze based browser navigation application operated using dynamically adapting dwell time of the keys]</p>
+<h5 id="final-prototype">Final Prototype</h5>
 <p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/TWf2tx7mfVw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>

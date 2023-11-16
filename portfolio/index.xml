@@ -6,14 +6,26 @@
     <description>Recent content in Portfolios on Puneet Jain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Mar 2023 19:56:17 +0530</lastBuildDate><atom:link href="https://jainpuneet798.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Nov 2023 19:41:01 +0530</lastBuildDate><atom:link href="https://jainpuneet798.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Juxta-pose</title>
-      <link>https://jainpuneet798.github.io/portfolio/juxtapose/</link>
-      <pubDate>Sun, 05 Mar 2023 19:56:17 +0530</pubDate>
+      <title>Dwell Time (VR/AR)</title>
+      <link>https://jainpuneet798.github.io/portfolio/dwelltime/</link>
+      <pubDate>Wed, 01 Nov 2023 19:41:01 +0530</pubDate>
       
-      <guid>https://jainpuneet798.github.io/portfolio/juxtapose/</guid>
-      <description>This is a work in progress. Overall idea is depicted in the form of images below: (1) Train Station, (2) The Toast, (3) Birth </description>
+      <guid>https://jainpuneet798.github.io/portfolio/dwelltime/</guid>
+      <description>Drawing on my close interventions with people with disabilities as a non-disabled Human-Computer Interaction researcher, building assistive technologies with (and for) disabled people, this work is a VR/AR experience of a self-reflection (a scrapbook) on my morphing artistic and scientific practice. [photo credits: Agustina Isidori, in picture: Lynn Hughes]
+[photo credits: Agustina Isidori, in picture: Rochana Fardon]
+In the field of Human-Computer Interaction and eye-tracking studies, &#39;Dwell Time&#39; is the time one has to gaze on a key on a screen to activate it.</description>
+    </item>
+    
+    <item>
+      <title>Navigating in VR using free-hand gestures and embodied controllers (ACM VRST 2023)</title>
+      <link>https://jainpuneet798.github.io/portfolio/vrst/</link>
+      <pubDate>Tue, 03 Oct 2023 19:56:17 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/vrst/</guid>
+      <description>This is a short paper published at the ACM Virtual Reality and Software Technology Conference 2023, held at Christchurch, New Zealand.
+Working on my PhD research, exploring how can technologies of XR (eXtended Reality) can be made accessible for people with sensorimotor disabilities, I am always aware that the hand-held controllers that are assumed as entry points of navigation in virtual spaces (for able-bodied folks) act as the hindering points for people with bodily disabilities to access VR/AR technologies.</description>
     </item>
     
     <item>
@@ -55,6 +67,15 @@ Animate Trailer</description>
     </item>
     
     <item>
+      <title>Can we talk?</title>
+      <link>https://jainpuneet798.github.io/portfolio/futurefoundations/</link>
+      <pubDate>Mon, 03 Aug 2020 19:56:17 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/futurefoundations/</guid>
+      <description>&amp;quot;If you touch a single banana with your two hands, you feel one banana, not two. Thus, the images of the two eyes must be “fused” somewhere in the brain to give rise to a unitary item of perception, or percept. But we can ask the questions, What if the eyes look at completely dissimilar things? Would we perceive a blend?&amp;quot; - VILAYANUR S. RAMACHANDRAN and DIANE ROGERS-RAMACHANDRAN (When the Two Eyes Clash, 2007).</description>
+    </item>
+    
+    <item>
       <title>AutonomX</title>
       <link>https://jainpuneet798.github.io/portfolio/autonomx/</link>
       <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
@@ -70,7 +91,8 @@ AutonomX is a project incubated at xModal Lab at Milieux Institute for Arts, Cul
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
       <guid>https://jainpuneet798.github.io/portfolio/umwelten/</guid>
-      <description>Umwelten is an interactive installation that initiates a collaboration between a human, a non-human (a touch-me-not plant/Mimosa Pudica), and a machine-learning (ML) algorithm depicting a playful circulation of agency among the three entities over time. This work borrows the concept of ‘umwelt’ (environment) coined by the German biologist Jacob Johann Von Uexküll , inviting the human, the plant, and the ML algorithm to interact with one another in the same physical space but with different sensory envelopes (or umwelten).</description>
+      <description>[photo credits: Puneet Jain]
+Umwelten is an interactive installation that initiates a collaboration between a human, a non-human (a touch-me-not plant/Mimosa Pudica), and a machine-learning (ML) algorithm depicting a playful circulation of agency among the three entities over time. This work borrows the concept of ‘umwelt’ (environment) coined by the German biologist Jacob Johann Von Uexküll , inviting the human, the plant, and the ML algorithm to interact with one another in the same physical space but with different sensory envelopes (or umwelten).</description>
     </item>
     
     <item>
@@ -80,16 +102,6 @@ AutonomX is a project incubated at xModal Lab at Milieux Institute for Arts, Cul
       
       <guid>https://jainpuneet798.github.io/portfolio/ethnographic-study-people-with-visual-impairment/</guid>
       <description>This is my ethnographic study with people who are visually impaired. Before begining the text, I want to confess that I am using the word ethnography in a loose sense here. While my timely visits to National Association for the Blind (NAB), Bangalore and Captain Chand Lal school (a school for children with visual impairment) in Delhi, making notes on their daily activities, conversations with their trainers, studying the tools used by them (e.</description>
-    </item>
-    
-    <item>
-      <title>Adaptive Gaze Controlled Virtual Keyboard for people with sensorimotor disabilities</title>
-      <link>https://jainpuneet798.github.io/portfolio/adaptivevirtualkeyboard/</link>
-      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
-      
-      <guid>https://jainpuneet798.github.io/portfolio/adaptivevirtualkeyboard/</guid>
-      <description>The common input modalities used by people for interacting with a computer are limited to a mouse or a physical keyboard - mostly operated using hands.
-However, these devices seem futile when the users are motor-impaired or have constrained body movements. The following project is a virtual keyboard that is operated through eye-gaze rather than hands. The keyboard has a modified QWERTY layout and is integrated with a customized machine learning algorithm to dynamically adapt dwell time of the keys.</description>
     </item>
     
     <item>
