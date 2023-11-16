@@ -105,6 +105,15 @@ Umwelten is an interactive installation that initiates a collaboration between a
     </item>
     
     <item>
+      <title>Adaptive Gaze Controlled Virtual Keyboard for people with sensorimotor disabilities</title>
+      <link>https://jainpuneet798.github.io/portfolio/adaptivevirtualkeyboard/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>https://jainpuneet798.github.io/portfolio/adaptivevirtualkeyboard/</guid>
+      <description>The common input modalities used by people for interacting with a computer are limited to a mouse or a physical keyboard - mostly operated using hands. However, these devices seem futile when the users are motor-impaired or have constrained body movements. The following project is a virtual keyboard that is operated through eye-gaze rather than hands. The keyboard has a modified QWERTY layout and is integrated with a customized machine learning algorithm to dynamically adapt dwell time of the keys.</description>
+    </item>
+    
+    <item>
       <title>Inertial Motion Sensing and Haptics in UNITY3D</title>
       <link>https://jainpuneet798.github.io/portfolio/inertial-motion-sensing-and-haptics-in-unity3d/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
